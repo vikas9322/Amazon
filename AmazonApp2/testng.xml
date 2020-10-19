@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+
+		<listener class-name="com.vikas.listeners.TestListener" />
+
+	</listeners>
+
+
+	<test name="test">
+		<parameter name="platformName" value="Android" />
+		<parameter name="platformVersion" value="9.0" />
+		<parameter name="deviceName" value="7GT7N18905004668" />
+		<parameter name= "UDID" value="7GT7N18905004668" />
+
+		<classes>
+			<class name="com.vikas.testcases.HomePageTest">
+			</class>
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

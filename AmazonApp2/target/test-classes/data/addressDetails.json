@@ -1,0 +1,17 @@
+
+{
+
+"addNewAddressTest":{
+		"name":"vikas",
+		"mobileNumber":"9322553804",
+		"pinCode":"421004",
+		"addressline1":"Kansai Bridge rooom no.1",
+		"addressLine2":"subash tekdi bharta nagar",
+		"addressLine3":"opp cholar ganpati mandir",
+		"City":"ulhasnagar",
+		"txt":"Add address"
+		
+}
+
+
+}
